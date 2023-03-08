@@ -1,12 +1,10 @@
 # 2021Sem2COMP2113Group73AeroplaneChess
 
-Group No.: 73
+Authors: 
 
-Group members: 
+Xin Jiayi    
 
-Xin Jiayi     UID: 3035770525
-
-Lou Huajie    UID: 3035772418
+Lou Huajie   
 
 Topic: Aeroplane chess
 
