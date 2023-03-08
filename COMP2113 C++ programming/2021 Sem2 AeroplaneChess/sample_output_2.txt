@@ -1,0 +1,44 @@
+// This is a fragment of a play which contains:
+// 1. the feature of jump 
+// 2. the feature of trodding
+// 3. the feature of checking the end of the game after every round
+// 4. suspension of the game
+
+
+Player Spade   -> s1: 22               s2: not departed!    s3: not departed!    s4: 1
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: 32               d4: not departed!
+Player Club    -> c1: not departed!    c2: 37               c3: not departed!    c4: not departed!
+
+Diamond's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 3 !
+Please enter the plane that you intend to move: d3
+Your plane d3 has jumped!
+
+Player Spade   -> s1: 22               s2: not departed!    s3: not departed!    s4: 1
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: 39               d4: not departed!
+Player Club    -> c1: not departed!    c2: 37               c3: not departed!    c4: not departed!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 22               s2: not departed!    s3: not departed!    s4: 1
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: 39               d4: not departed!
+Player Club    -> c1: not departed!    c2: 37               c3: not departed!    c4: not departed!
+
+Club's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 2 !
+Please enter the plane that you intend to move: c2
+Plane d3 has been trodded back to the origin.
+
+Player Spade   -> s1: 22               s2: not departed!    s3: not departed!    s4: 1
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: 39               c3: not departed!    c4: not departed!
+None of the players has finished the game. Game continues...
+Do you want to suspend the game? (Y/N)
+Y
+The game state has been saved successfully in file: game_state.txt :)

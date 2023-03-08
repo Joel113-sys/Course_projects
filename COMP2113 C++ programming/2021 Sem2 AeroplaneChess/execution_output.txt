@@ -1,0 +1,17 @@
+h3577052@academy11:~$ cd Desktop/AC
+h3577052@academy11:~/Desktop/AC$ ls
+Makefile       chess_and_grid.h  print_map.cpp  screen_output.cpp
+README.md      main.cpp          print_map.h    screen_output.h
+check_end.cpp  move.cpp          roll_dice.cpp  suspend_and_restart_the_game.cpp
+check_end.h    move.h            roll_dice.h    suspend_and_restart_the_game.h
+h3577052@academy11:~/Desktop/AC$ chmod 777 Makefile
+h3577052@academy11:~/Desktop/AC$ make aeroplane
+g++ -pedantic-errors -std=c++11 -c main.cpp
+g++ -pedantic-errors -std=c++11 -c suspend_and_restart_the_game.cpp
+g++ -pedantic-errors -std=c++11 -c screen_output.cpp
+g++ -pedantic-errors -std=c++11 -c roll_dice.cpp
+g++ -pedantic-errors -std=c++11 -c print_map.cpp
+g++ -pedantic-errors -std=c++11 -c move.cpp
+g++ -pedantic-errors -std=c++11 -c check_end.cpp
+g++ -pedantic-errors -std=c++11 main.o suspend_and_restart_the_game.o screen_output.o roll_dice.o print_map.o move.o check_end.o -o aeroplane
+h3577052@academy11:~/Desktop/AC$ ./aeroplane

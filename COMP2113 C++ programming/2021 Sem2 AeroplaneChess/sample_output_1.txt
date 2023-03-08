@@ -1,0 +1,467 @@
+// This output is a demo which contains
+// 1. start a new game
+// 2. play for 5 rounds
+// 3. depart
+// 4. invalid input correction
+// 5. move
+// 6. suspend the game
+
+Do you want to restart an old game? (Y/N)
+N
+Here is the board of the aeroplane chess! Have fun :D
+------------------------------------------------------------------------------
+| 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 || 12 || 13 |
+| Sp || He || Di || Cl || Sp || He || Di || Cl || Sp || He || Di || Cl || Sp |
+------------------------------------------------------------------------------
+| 48 |                              | 49 |                    |         | 14 |
+| Cl |                              | H* |                    |         | He |
+------                              ------                              ------
+| 47 |                              | 50 |                    |         | 15 |
+| Di |                              | H* |                    |         | Di |
+------                              ------                              ------
+| 46 |----------------------------->| 51 |                    |         | 16 |
+| He |                              | H* |                    |         | Cl |
+------                              ------                              ------
+| 45 |                              | 52 |                    |         | 17 |
+| Sp |                              | H* |                    |         | Sp |
+------                              ------                              ------
+| 44 |                              | 53 |                    |         | 18 |
+| Cl |                              | H* |                   \|/        | He |
+------------------------------------------------------------------------------
+| 43 || 60 || 61 || 62 || 63 || 64 || 54 || 65 || 66 || 67 || 68 || 69 || 19 |
+| Di || S* || S* || S* || S* || S* || ** || D* || D* || D* || D* || D* || Di |
+------------------------------------------------------------------------------
+| 42 |                   /|\        | 55 |                              | 20 |
+| He |                    |         | C* |                              | Cl |
+------                              ------                              ------
+| 41 |                    |         | 56 |                              | 21 |
+| Sp |                    |         | C* |                              | Sp |
+------                              ------                              ------
+| 40 |                    |         | 57 |                              | 22 |
+| Cl |                    |         | C* |                              | He |
+------                              ------                              ------
+| 39 |                    |         | 58 |                              | 23 |
+| Di |                    |         | C* |                              | Di |
+------                              ------                              ------
+| 38 |                    |         | 59 |<-----------------------------| 24 |
+| He |                    |         | C* |                              | Cl |
+------------------------------------------------------------------------------
+| 37 || 36 || 35 || 34 || 33 || 32 || 31 || 30 || 29 || 28 || 27 || 26 || 25 |
+| Sp || Cl || Di || He || Sp || Cl || Di || He || Sp || Cl || Di || He || Sp |
+------------------------------------------------------------------------------
+
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Spade's turn.
+please enter an integer to roll the dice (1-100)
+1
+You rolled a 3 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Heart's turn.
+please enter an integer to roll the dice (1-100)
+2
+You rolled a 4 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Diamond's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 5 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Club's turn.
+please enter an integer to roll the dice (1-100)
+4
+You rolled a 1 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Do you want to suspend the game? (Y/N)
+N
+Next round!
+Here is the board of the aeroplane chess! Have fun :D
+------------------------------------------------------------------------------
+| 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 || 12 || 13 |
+| Sp || He || Di || Cl || Sp || He || Di || Cl || Sp || He || Di || Cl || Sp |
+------------------------------------------------------------------------------
+| 48 |                              | 49 |                    |         | 14 |
+| Cl |                              | H* |                    |         | He |
+------                              ------                              ------
+| 47 |                              | 50 |                    |         | 15 |
+| Di |                              | H* |                    |         | Di |
+------                              ------                              ------
+| 46 |----------------------------->| 51 |                    |         | 16 |
+| He |                              | H* |                    |         | Cl |
+------                              ------                              ------
+| 45 |                              | 52 |                    |         | 17 |
+| Sp |                              | H* |                    |         | Sp |
+------                              ------                              ------
+| 44 |                              | 53 |                    |         | 18 |
+| Cl |                              | H* |                   \|/        | He |
+------------------------------------------------------------------------------
+| 43 || 60 || 61 || 62 || 63 || 64 || 54 || 65 || 66 || 67 || 68 || 69 || 19 |
+| Di || S* || S* || S* || S* || S* || ** || D* || D* || D* || D* || D* || Di |
+------------------------------------------------------------------------------
+| 42 |                   /|\        | 55 |                              | 20 |
+| He |                    |         | C* |                              | Cl |
+------                              ------                              ------
+| 41 |                    |         | 56 |                              | 21 |
+| Sp |                    |         | C* |                              | Sp |
+------                              ------                              ------
+| 40 |                    |         | 57 |                              | 22 |
+| Cl |                    |         | C* |                              | He |
+------                              ------                              ------
+| 39 |                    |         | 58 |                              | 23 |
+| Di |                    |         | C* |                              | Di |
+------                              ------                              ------
+| 38 |                    |         | 59 |<-----------------------------| 24 |
+| He |                    |         | C* |                              | Cl |
+------------------------------------------------------------------------------
+| 37 || 36 || 35 || 34 || 33 || 32 || 31 || 30 || 29 || 28 || 27 || 26 || 25 |
+| Sp || Cl || Di || He || Sp || Cl || Di || He || Sp || Cl || Di || He || Sp |
+------------------------------------------------------------------------------
+
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Spade's turn.
+please enter an integer to roll the dice (1-100)
+4
+You rolled a 5 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Heart's turn.
+please enter an integer to roll the dice (1-100)
+5
+You rolled a 4 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Diamond's turn.
+please enter an integer to roll the dice (1-100)
+6
+You rolled a 1 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Club's turn.
+please enter an integer to roll the dice (1-100)
+5
+You rolled a 4 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Do you want to suspend the game? (Y/N)
+N
+Next round!
+Here is the board of the aeroplane chess! Have fun :D
+------------------------------------------------------------------------------
+| 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 || 12 || 13 |
+| Sp || He || Di || Cl || Sp || He || Di || Cl || Sp || He || Di || Cl || Sp |
+------------------------------------------------------------------------------
+| 48 |                              | 49 |                    |         | 14 |
+| Cl |                              | H* |                    |         | He |
+------                              ------                              ------
+| 47 |                              | 50 |                    |         | 15 |
+| Di |                              | H* |                    |         | Di |
+------                              ------                              ------
+| 46 |----------------------------->| 51 |                    |         | 16 |
+| He |                              | H* |                    |         | Cl |
+------                              ------                              ------
+| 45 |                              | 52 |                    |         | 17 |
+| Sp |                              | H* |                    |         | Sp |
+------                              ------                              ------
+| 44 |                              | 53 |                    |         | 18 |
+| Cl |                              | H* |                   \|/        | He |
+------------------------------------------------------------------------------
+| 43 || 60 || 61 || 62 || 63 || 64 || 54 || 65 || 66 || 67 || 68 || 69 || 19 |
+| Di || S* || S* || S* || S* || S* || ** || D* || D* || D* || D* || D* || Di |
+------------------------------------------------------------------------------
+| 42 |                   /|\        | 55 |                              | 20 |
+| He |                    |         | C* |                              | Cl |
+------                              ------                              ------
+| 41 |                    |         | 56 |                              | 21 |
+| Sp |                    |         | C* |                              | Sp |
+------                              ------                              ------
+| 40 |                    |         | 57 |                              | 22 |
+| Cl |                    |         | C* |                              | He |
+------                              ------                              ------
+| 39 |                    |         | 58 |                              | 23 |
+| Di |                    |         | C* |                              | Di |
+------                              ------                              ------
+| 38 |                    |         | 59 |<-----------------------------| 24 |
+| He |                    |         | C* |                              | Cl |
+------------------------------------------------------------------------------
+| 37 || 36 || 35 || 34 || 33 || 32 || 31 || 30 || 29 || 28 || 27 || 26 || 25 |
+| Sp || Cl || Di || He || Sp || Cl || Di || He || Sp || Cl || Di || He || Sp |
+------------------------------------------------------------------------------
+
+Player Spade   -> s1: not departed!    s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Spade's turn.
+please enter an integer to roll the dice (1-100)
+5
+You rolled a 6 !
+please select your action: depart/move
+depart
+Please select a plane to depart(s1/s2/s3/s4)
+s1
+Your plane s1 has departed!
+Player Spade   -> s1: 1                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+Congrats! You get another chance to roll the dice!
+Here is the board of the aeroplane chess! Have fun :D
+------------------------------------------------------------------------------
+| 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 || 12 || 13 |
+| Sp || He || Di || Cl || Sp || He || Di || Cl || Sp || He || Di || Cl || Sp |
+------------------------------------------------------------------------------
+| 48 |                              | 49 |                    |         | 14 |
+| Cl |                              | H* |                    |         | He |
+------                              ------                              ------
+| 47 |                              | 50 |                    |         | 15 |
+| Di |                              | H* |                    |         | Di |
+------                              ------                              ------
+| 46 |----------------------------->| 51 |                    |         | 16 |
+| He |                              | H* |                    |         | Cl |
+------                              ------                              ------
+| 45 |                              | 52 |                    |         | 17 |
+| Sp |                              | H* |                    |         | Sp |
+------                              ------                              ------
+| 44 |                              | 53 |                    |         | 18 |
+| Cl |                              | H* |                   \|/        | He |
+------------------------------------------------------------------------------
+| 43 || 60 || 61 || 62 || 63 || 64 || 54 || 65 || 66 || 67 || 68 || 69 || 19 |
+| Di || S* || S* || S* || S* || S* || ** || D* || D* || D* || D* || D* || Di |
+------------------------------------------------------------------------------
+| 42 |                   /|\        | 55 |                              | 20 |
+| He |                    |         | C* |                              | Cl |
+------                              ------                              ------
+| 41 |                    |         | 56 |                              | 21 |
+| Sp |                    |         | C* |                              | Sp |
+------                              ------                              ------
+| 40 |                    |         | 57 |                              | 22 |
+| Cl |                    |         | C* |                              | He |
+------                              ------                              ------
+| 39 |                    |         | 58 |                              | 23 |
+| Di |                    |         | C* |                              | Di |
+------                              ------                              ------
+| 38 |                    |         | 59 |<-----------------------------| 24 |
+| He |                    |         | C* |                              | Cl |
+------------------------------------------------------------------------------
+| 37 || 36 || 35 || 34 || 33 || 32 || 31 || 30 || 29 || 28 || 27 || 26 || 25 |
+| Sp || Cl || Di || He || Sp || Cl || Di || He || Sp || Cl || Di || He || Sp |
+------------------------------------------------------------------------------
+
+Player Spade   -> s1: 1                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Spade's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 2 !
+Please enter the plane that you intend to move: s1
+
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Heart's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 4 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Diamond's turn.
+please enter an integer to roll the dice (1-100)
+4
+You rolled a 2 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Club's turn.
+please enter an integer to roll the dice (1-100)
+2
+You rolled a 2 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Do you want to suspend the game? (Y/N)
+N
+Next round!
+Here is the board of the aeroplane chess! Have fun :D
+------------------------------------------------------------------------------
+| 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 || 12 || 13 |
+| Sp || He || Di || Cl || Sp || He || Di || Cl || Sp || He || Di || Cl || Sp |
+------------------------------------------------------------------------------
+| 48 |                              | 49 |                    |         | 14 |
+| Cl |                              | H* |                    |         | He |
+------                              ------                              ------
+| 47 |                              | 50 |                    |         | 15 |
+| Di |                              | H* |                    |         | Di |
+------                              ------                              ------
+| 46 |----------------------------->| 51 |                    |         | 16 |
+| He |                              | H* |                    |         | Cl |
+------                              ------                              ------
+| 45 |                              | 52 |                    |         | 17 |
+| Sp |                              | H* |                    |         | Sp |
+------                              ------                              ------
+| 44 |                              | 53 |                    |         | 18 |
+| Cl |                              | H* |                   \|/        | He |
+------------------------------------------------------------------------------
+| 43 || 60 || 61 || 62 || 63 || 64 || 54 || 65 || 66 || 67 || 68 || 69 || 19 |
+| Di || S* || S* || S* || S* || S* || ** || D* || D* || D* || D* || D* || Di |
+------------------------------------------------------------------------------
+| 42 |                   /|\        | 55 |                              | 20 |
+| He |                    |         | C* |                              | Cl |
+------                              ------                              ------
+| 41 |                    |         | 56 |                              | 21 |
+| Sp |                    |         | C* |                              | Sp |
+------                              ------                              ------
+| 40 |                    |         | 57 |                              | 22 |
+| Cl |                    |         | C* |                              | He |
+------                              ------                              ------
+| 39 |                    |         | 58 |                              | 23 |
+| Di |                    |         | C* |                              | Di |
+------                              ------                              ------
+| 38 |                    |         | 59 |<-----------------------------| 24 |
+| He |                    |         | C* |                              | Cl |
+------------------------------------------------------------------------------
+| 37 || 36 || 35 || 34 || 33 || 32 || 31 || 30 || 29 || 28 || 27 || 26 || 25 |
+| Sp || Cl || Di || He || Sp || Cl || Di || He || Sp || Cl || Di || He || Sp |
+------------------------------------------------------------------------------
+
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Spade's turn.
+please enter an integer to roll the dice (1-100)
+5
+You rolled a 2 !
+Please enter the plane that you intend to move: 4
+Invaild input! Penalize the player to lose this chance!
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Heart's turn.
+please enter an integer to roll the dice (1-100)
+4
+You rolled a 3 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Diamond's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 1 !
+None of the planes has departed yet!
+None of the players has finished the game. Game continues...
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: not departed!    c4: not departed!
+
+Club's turn.
+please enter an integer to roll the dice (1-100)
+5
+You rolled a 6 !
+please select your action: depart/move
+3
+Invalid input! Please enter again!
+please select your action: depart/move
+move
+Invalid input! Please enter again!
+please select your action: depart/move
+depart
+Please select a plane to depart(c1/c2/c3/c4)
+c3
+Your plane c3 has departed!
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: 37               c4: not departed!
+Congrats! You get another chance to roll the dice!
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: 37               c4: not departed!
+
+Club's turn.
+please enter an integer to roll the dice (1-100)
+3
+You rolled a 2 !
+Please enter the plane that you intend to move: c3
+
+Player Spade   -> s1: 3                s2: not departed!    s3: not departed!    s4: not departed!
+Player Heart   -> h1: not departed!    h2: not departed!    h3: not departed!    h4: not departed!
+Player Diamond -> d1: not departed!    d2: not departed!    d3: not departed!    d4: not departed!
+Player Club    -> c1: not departed!    c2: not departed!    c3: 39               c4: not departed!
+None of the players has finished the game. Game continues...
+Do you want to suspend the game? (Y/N)
+Y
+The game state has been saved successfully in file: game_state.txt :)
